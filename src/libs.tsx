@@ -2,7 +2,7 @@ import { TabDispatchAction } from '@ag108/ct-utils/types/dispatch';
 
 import { PackageLinks, PaintIndexState } from '@ag108/ct-utils';
 
-const PKG_NAME = 'txtpaint';
+const PKG_NAME = 'colors';
 
 export const Red = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return <PackageLinks modules={['dark', "light"]} pkgName={PKG_NAME} libName='red' backTab={PaintIndexState} setTab={setTab} />;
