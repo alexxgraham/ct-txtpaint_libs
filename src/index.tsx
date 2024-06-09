@@ -3,7 +3,7 @@ import { PackageLibraries } from '@ag108/ct-utils/types/main';
 
 import { PackageIndexLink } from '@ag108/ct-utils';
 
-import { BlueState, CyanState, GreenState, MagentaState, RedState, YellowState } from './state';
+import { BlueState, CyanState, GreenState, MagentaState, RedState, YellowState } from '~/state';
 
 const libraries: PackageLibraries = [
 	{ name: 'red', tabState: RedState },
@@ -32,3 +32,5 @@ export const IndexPaint = ({ setTab }: { setTab: TabDispatchAction }) => {
 		</article>
 	);
 }
+
+export { Red, Blue, Green, Yellow, Magenta, Cyan } from '~/libs'
