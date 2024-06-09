@@ -1,5 +1,11 @@
 # @ag108/ct-txtpaint_libs
 
+## 1.0.2
+
+### Patch Changes
+
+- 005de51: updated: "to -> v1.0.4 of ct-utils (also changed PKG_NAME in 'libs.tsx' to adjust new breadcrumb format)"
+
 ## 1.0.1
 
 ### Patch Changes
