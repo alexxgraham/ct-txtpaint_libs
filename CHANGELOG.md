@@ -1,5 +1,11 @@
 # @ag108/ct-txtpaint_libs
 
+## 1.0.4
+
+### Patch Changes
+
+- 18dd6c2: fixed conflicting tailwind classes with IndexPaint classes for lts of ct-util classes
+
 ## 1.0.3
 
 ### Patch Changes
