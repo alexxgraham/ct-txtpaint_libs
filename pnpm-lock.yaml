@@ -8,13 +8,13 @@ importers:
 
   .:
     dependencies:
+      '@ag108/ct-utils':
+        specifier: ^1.0.22
+        version: 1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^20.14.2
         version: 20.14.2
     devDependencies:
-      '@ag108/ct-utils':
-        specifier: ^1.0.0
-        version: 1.0.0
       '@changesets/cli':
         specifier: ^2.27.5
         version: 2.27.5
@@ -42,8 +42,12 @@ importers:
 
 packages:
 
-  '@ag108/ct-utils@1.0.0':
-    resolution: {integrity: sha512-w8F5gcgS6/f0kh9mvxeWK1/nyuCOGxvNomB+VJkZWfVWFFkwVOwJhL3QcNg8UiG2NYDyVxXcP+07qYzOBQaFuw==}
+  '@ag108/ct-utils@1.0.22':
+    resolution: {integrity: sha512-ydMp8JeQrqytW6LBGJWK0o5mW7g51Ma34A0GuzKYMn8iaRvYMfM0uie6tygDqyOqaSm8/PiUIibGwy+twobXYg==}
+    peerDependencies:
+      '@types/node': ^20.14.2
+      react: ^18.3.1
+      react-dom: ^18.3.1
 
   '@babel/code-frame@7.24.7':
     resolution: {integrity: sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==}
@@ -1697,7 +1701,12 @@ packages:
 
 snapshots:
 
-  '@ag108/ct-utils@1.0.0': {}
+  '@ag108/ct-utils@1.0.22(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+    dependencies:
+      '@types/node': 20.14.2
+      clsx: 2.1.1
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
 
   '@babel/code-frame@7.24.7':
     dependencies:

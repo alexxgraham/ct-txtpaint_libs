@@ -16,15 +16,15 @@ const libraries: PackageLibraries = [
 
 export const IndexPaint = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return (
-		<article className='flex flex-col pt-2'>
-			<p className='text-accent uppercase'>
+		<article className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-top-2')}>
+			<p className={cn('ct-utils_text-accent', 'ct-utils_uppercase')}>
 				[<PackageIndexLink setTab={setTab} />] colors library ({libraries.length}):
 			</p>
-			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-15rem', 'ct-utils_overflow-scroll')}>
+			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-8-75rem', 'ct-utils_overflow-scroll')}>
 				{libraries.map((library, i) => (
 					<li key={i + 1}>
-						<button onClick={() => setTab(library.tabState)} className='uppercase outline-none'>
-							{i + 1}) [<span className='hover:underline cursor-pointer'>{library.name}</span>]
+						<button onClick={() => setTab(library.tabState)} className={cn('ct-utils_uppercase', 'ct-utils_outline-none')}>
+							{i + 1}) [<span className={cn('ct-utils_hover ct-utils_underline', 'ct-utils_cursor-pointer')}>{library.name}</span>]
 						</button>
 					</li>
 				))}
