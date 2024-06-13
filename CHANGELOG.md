@@ -1,5 +1,11 @@
 # @ag108/ct-txtpaint_libs
 
+## 1.0.5
+
+### Patch Changes
+
+- 8f22e7b: update to lts ct-utils
+
 ## 1.0.4
 
 ### Patch Changes
