@@ -1,5 +1,11 @@
 # @ag108/ct-txtpaint_libs
 
+## 1.0.3
+
+### Patch Changes
+
+- 072bbe2: added [txtpaint] pack ct-utils stylesheets
+
 ## 1.0.2
 
 ### Patch Changes
