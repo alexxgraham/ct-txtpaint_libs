@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@ag108/ct-utils':
-        specifier: ^1.0.23
-        version: 1.0.23(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^1.0.24
+        version: 1.0.24(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@types/node':
         specifier: ^20.14.2
         version: 20.14.2
@@ -42,8 +42,8 @@ importers:
 
 packages:
 
-  '@ag108/ct-utils@1.0.23':
-    resolution: {integrity: sha512-5/6sex5J44pS8Pq2BUVsPzDIz1r5paBBslXiZj6U5g1EuXpSqaImOYi+nlOfkh76bS6SpmQHKMdrkGHwR6FqWA==}
+  '@ag108/ct-utils@1.0.24':
+    resolution: {integrity: sha512-++rhrFVrhE5P8wxA3/DlsBIHm/vPv5fdkshp3j6vgP87H/oMvCSlyvGLU9aIxMREIONRfqsY6cVgs6jc7qC0jw==}
     peerDependencies:
       '@types/node': ^20.14.2
       react: ^18.3.1
@@ -1701,7 +1701,7 @@ packages:
 
 snapshots:
 
-  '@ag108/ct-utils@1.0.23(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@ag108/ct-utils@1.0.24(@types/node@20.14.2)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@types/node': 20.14.2
       clsx: 2.1.1

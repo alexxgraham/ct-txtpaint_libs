@@ -17,7 +17,7 @@ const libraries: PackageLibraries = [
 export const IndexPaint = ({ setTab }: { setTab: TabDispatchAction }) => {
 	return (
 		<article className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-top-2')}>
-			<p className={cn('ct-utils_text-accent', 'ct-utils_uppercase')}>
+			<p className={cn('ct-utils_color-accent', 'ct-utils_uppercase')}>
 				[<PackageIndexLink setTab={setTab} />] colors library ({libraries.length}):
 			</p>
 			<ol className={cn('ct-utils_flex', 'ct-utils_flex-column', 'ct-utils_pad-x-4', 'ct-utils_items-start', 'ct-utils_h-8-75rem', 'ct-utils_overflow-scroll')}>
