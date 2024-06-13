@@ -1,7 +1,7 @@
 {
 	"name": "@ag108/ct-txtpaint_libs",
 	"license": "MIT",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
 	"types": "dist/index.d.ts",
